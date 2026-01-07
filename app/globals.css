@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f172a; /* Slate 900 */
+  --color-primary-foreground: #f8fafc;
+
+  --color-secondary: #b45309; /* Amber 700 */
+  --color-secondary-foreground: #ffffff;
+
+  --color-accent: #0ea5e9; /* Sky 500 */
+  --color-accent-foreground: #ffffff;
+
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+
+  --color-muted: #f1f5f9; /* Slate 100 */
+  --color-muted-foreground: #64748b; /* Slate 500 */
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
