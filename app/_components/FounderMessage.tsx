@@ -60,14 +60,14 @@ export default function FounderMessage() {
                   because the systems required to sustain that vision are either
                   weak or missing.
                 </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                {/* <p className="text-gray-600 mb-6 leading-relaxed">
                   Since 2015, our work has focused on helping institutions move
                   beyond personality-driven leadership and informal processes,
                   toward clear governance, effective administration, and
                   accountable systems. We believe that strong institutions are
                   not built by passion alone—they are built by structure,
                   people, and disciplined execution.
-                </p>
+                </p> */}
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Our Africa-centered approach is deliberate. Solutions must
                   respect context, regulation, culture, and resource realities.
